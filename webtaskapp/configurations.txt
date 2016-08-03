@@ -1,0 +1,1 @@
+com.mysql.jdbc.Driver jdbc:mysql://localhost:3306/ taskerdb root root

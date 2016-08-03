@@ -1,0 +1,133 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <!-- Navigation Bar -->   
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                    <span class="sr-only">Open navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
+            <div class="collapse navbar-collapse" id="responsive-menu">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Managers</a></li>
+                    <li><a href="#">Tasks</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+     
+      <!-- Table --> 
+     <div class="container">
+         <div class="row">
+             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                 <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        Managers
+                    </div>
+                     <div class="panel-body">
+                         <div class="table-responsive">
+                        <table class="table table-condensed">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <i class="fa fa-circle" aria-hidden="true"></i> Id
+                                    </th>
+                                    <th>
+                                        <i class="fa fa-user" aria-hidden="true"></i> Name
+                                    </th>
+                                    <th>
+                                        <i class="fa fa-child" aria-hidden="true"></i> Position
+                                    </th>
+                                    <th>
+                                        <i class="fa fa-cogs" aria-hidden="true"></i> Settings
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>23</td>
+                                    <td>Project1</td>
+                                    <td>Position1</td>
+                                    <td>
+                                        <button class="btn btn-warning btn-xs" name="Button" value="ChangeTask">
+                                            <i class="fa fa-wrench" aria-hidden="true"></i>  Change
+                                        </button>
+                                        <button class="btn btn-danger btn-xs" name="Button" value="DeleteTask">
+                                            <i class="fa fa-trash-o" aria-hidden="true"></i> Delete
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                     </div>
+                </div>
+             </div>
+             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+             </div>
+             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                 <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <i class="fa fa-user-plus" aria-hidden="true"></i>
+                        Add new manager
+                     </div>
+                     <div class="panel-body">
+                         <form method="post" class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Name: </label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputText" name = "name" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button class="btn btn-success" name="Button" value="AddTask">Add</button>
+                        </div>
+                    </div>
+                </form>
+                    </div>
+                </div>
+             </div>
+         </div>
+    </div>
+    
+      
+    <!-- Footer -->  
+    <div class="container">
+        <div class="row">
+            <hr>
+                <div class="col-lg-12">
+                    <div class="col-md-8">
+                        <a href="#">Terms of Service</a> | <a href="#">Privacy</a>    
+                    </div>
+                    <div class="col-md-4">
+                        <p class="muted pull-right">© 2013 Company Name. All rights reserved</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+      
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
